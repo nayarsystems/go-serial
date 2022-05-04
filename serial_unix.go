@@ -4,6 +4,7 @@
 // license that can be found in the LICENSE file.
 //
 
+//go:build linux || darwin || freebsd || openbsd
 // +build linux darwin freebsd openbsd
 
 package serial
@@ -16,7 +17,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.bug.st/serial/unixutils"
+	"github.com/nayarsystems/go-serial/unixutils"
 	"golang.org/x/sys/unix"
 )
 

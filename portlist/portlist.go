@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.bug.st/serial/enumerator"
+	"github.com/nayarsystems/go-serial/enumerator"
 )
 
 func main() {
